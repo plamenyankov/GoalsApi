@@ -1,0 +1,20 @@
+{
+    "event": "suiteStart",
+    "suite": "functional",
+    "tests": 1
+}{
+    "event": "testStart",
+    "suite": "functional",
+    "test": "sign up for Larabook account (SignUpCept)"
+}{
+    "event": "test",
+    "suite": "functional",
+    "test": "sign up for Larabook account (SignUpCept)",
+    "status": "pass",
+    "time": 1.4338989257812,
+    "trace": [
+
+    ],
+    "message": "",
+    "output": ""
+}

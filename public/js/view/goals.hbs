@@ -1,0 +1,45 @@
+<script type="text/x-handlebars" id="goals">
+    <div class="row">
+        <div class="large-12 columns">
+ {{partial "goalscontrols"}}
+            <h2 class="subheader">You have {{controller.content.length}} goals!</h2>
+ {{view App.FlashListView}}
+            <div class="button-bar ">
+                <ul class="button-group radius round">
+                    <li><a href="#" {{action 'prevPage'}} class="tiny small large button  secondary [disabled]">
+                        <i class="fi-arrow-left  size-16"></i></a></li>
+                    <li><a href="#" {{action 'nextPage'}} class="tiny small large button  secondary [disabled]">
+                        <i class="fi-arrow-right size-16"></i></a></li>
+                </ul>
+            </div>
+            <table class="goals-table">
+
+                <thead>
+                    <tr>
+                        <th width="200">Goal</th>
+                        <th width="350">Description</th>
+                        <th width="200">Deadline</th>
+                        <th width="200">Progress</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+    {{#each this}}
+
+                    <tr>
+
+                        <td>{{#link-to 'goal' id}}{{name}}{{/link-to}}</td>
+                        <td>{{description}}</td>
+                        <td>{{deadline}}</td>
+                        <td>Content Goes Here</td>
+                    </tr>
+    {{/each}}
+                </tbody>
+            </table>
+            <p>{{#link-to 'goals.new'}}<button class="button animated bounceInLeft"><i class="fi-plus size-16"></i> Add Goal</button>{{/link-to}} </p>
+        </div>
+{{outlet}}
+
+    </div>
+
+</script>
