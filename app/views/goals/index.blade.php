@@ -19,15 +19,19 @@
             <tbody>
             @foreach($goals as $goal)
             <tr>
-                <td><% $goal['name'] %></td>
+                <td><% link_to('goals/'.$goal['id'],$goal['name'],['id'=>$goal['id']]) %></td>
                 <td><% $goal['description'] %></td>
-                <td><% $goal['deadline'] %></td>
+                <td>@if( isset($goal['subgoal']))
+                    @foreach($goal['subgoal'] as $go)
+                    <% $go['end_date'] %>
+                    @endforeach
+                    @endif</td>
                 <td>Content Goes Here</td>
             </tr>
             @endforeach
             </tbody>
         </table>
-        <p><a href="<% route('goals.create')%>"><button class="button animated bounceInLeft tiny"><i class="fi-plus size-16"></i> Add Goal</button></a></p>
+        <p><a href="<% route('goals_create')%>"><button class="button animated bounceInLeft tiny"><i class="fi-plus size-16"></i> Add Goal</button></a></p>
     </div>
 
 </div>

@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Larabook</title>
+    <title>Goals</title>
+
+
     <% HTML::style('css/main.css') %>
     <% HTML::style('css/foundation-icons.css') %>
     <% HTML::style('css/animate.css') %>

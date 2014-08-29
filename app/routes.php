@@ -7,14 +7,30 @@ Event::listen('Goals.*',function(){
 Route::get('/', function(){
     return View::make('home.body');
 });
+Route::get('goals/create',[
+    'as'=>'goals_create',
+    'uses'=>'GoalsController@create']);
+Route::get('goals/{id}',  'GoalsController@show');
 
-Route::resource('goals', 'GoalsController');
+Route::get('goals','GoalsController@index');
 Route::post('goals/type',[
     'as'=>'type',
     'uses'=> 'GoalsController@type'
 ]);
-Route::post('goals/descr',[
+Route::post('goals/measure',[
     'as'=>'measure',
     'uses'=> 'GoalsController@measure'
 ]);
-Route::resource('targets', 'TargetsController');
+Route::post('goals/progression',[
+    'as'=>'progression',
+    'uses'=> 'GoalsController@progression'
+]);
+Route::post('goals/description',[
+    'as'=>'description',
+    'uses'=> 'GoalsController@description'
+]);
+Route::get('goals/store',[
+    'as'=>'goals_create',
+    'uses'=> 'GoalsController@store'
+]);
+

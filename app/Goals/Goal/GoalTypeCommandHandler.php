@@ -1,5 +1,6 @@
 <?php namespace Goals\Goal;
 
+use Illuminate\Support\Facades\Session;
 use Laracasts\Commander\CommandHandler;
 
 class GoalTypeCommandHandler implements CommandHandler {
@@ -12,6 +13,7 @@ class GoalTypeCommandHandler implements CommandHandler {
      */
     public function handle($command)
     {
+        Session::put('type',$command->goal_type);
     return $view = 'goals.'.$command->goal_type;
 
     }

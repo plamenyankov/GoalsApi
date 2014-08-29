@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="row">
-<div class="large-6 columns large-offset-3">
+<div class="large-6 columns large-offset-3 goal-form">
 
     @if($errors->any())
     <ul>

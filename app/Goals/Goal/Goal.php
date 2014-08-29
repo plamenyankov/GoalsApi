@@ -9,12 +9,12 @@ class Goal extends \Eloquent {
 
     protected $table = 'goals';
 
-    public function targets(){
+    public function subgoal(){
 
-        return $this->hasMany('Goals\Targets\Targets');
+        return $this->hasMany('Goals\Subgoals\Subgoal','goal_id');
     }
 
-    public static function addGoal($name, $description){
+    public function addGoal($name, $description){
         $goal = new static(compact('name','description'));
 
         $goal->raise(new GoalWasAdded($goal));

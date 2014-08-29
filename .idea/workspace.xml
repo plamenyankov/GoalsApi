@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="simple.blade.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/goals/simple.blade.php">
+      <file leaf-file-name="default.blade.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layout/default.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="53" selection-start="141" selection-end="141" vertical-scroll-proportion="0.3809524" vertical-offset="0" max-vertical-offset="432">
+            <state line="10" column="60" selection-start="227" selection-end="283" vertical-scroll-proportion="0.1493776" vertical-offset="168" max-vertical-offset="912">
               <folding />
             </state>
           </provider>
@@ -42,15 +42,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/gulp-foundation-5-template/assets/js/foundation.min.js" />
-        <option value="$PROJECT_DIR$/gulp-foundation-5-template/bower_components/jquery/dist/jquery.min.js" />
-        <option value="$PROJECT_DIR$/app/views/hello.blade.php" />
-        <option value="$PROJECT_DIR$/gulp-foundation-5-template/bower_components/foundation/scss/foundation/_settings.scss" />
-        <option value="$PROJECT_DIR$/app/Goals/Form/GoalValidation.php" />
-        <option value="$PROJECT_DIR$/vendor/laracasts/flash/src/views/flash.blade.php" />
-        <option value="$PROJECT_DIR$/vendor/laracasts/flash/src/views/message.blade.php" />
-        <option value="$PROJECT_DIR$/public/js/view/goals.js" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_08_02_122230_create_targets_table.php" />
         <option value="$PROJECT_DIR$/app/models/Goal.php" />
         <option value="$PROJECT_DIR$/app/models/Targets.php" />
@@ -58,41 +49,50 @@
         <option value="$PROJECT_DIR$/codeception.yml" />
         <option value="$PROJECT_DIR$/tests/fixtures.yml" />
         <option value="$PROJECT_DIR$/tests/functional/WelcomeCept.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/config/auth.php" />
         <option value="$PROJECT_DIR$/app/Goals/User/User.php" />
         <option value="$PROJECT_DIR$/app/config/app.php" />
-        <option value="$PROJECT_DIR$/app/controllers/BaseController.php" />
         <option value="$PROJECT_DIR$/app/Goals/Goal/Events/GoalWasAdded.php" />
-        <option value="$PROJECT_DIR$/app/Goals/Goal/Goal.php" />
         <option value="$PROJECT_DIR$/app/views/emails/test.blade.php" />
         <option value="$PROJECT_DIR$/app/config/services.php" />
         <option value="$PROJECT_DIR$/app/config/mail.php" />
         <option value="$PROJECT_DIR$/app/views/home/body.blade.php" />
         <option value="$PROJECT_DIR$/public/js/app.js" />
-        <option value="$PROJECT_DIR$/app/Goals/Targets/Targets.php" />
         <option value="$PROJECT_DIR$/app/Goals/Targets/AddTargetCommand.php" />
         <option value="$PROJECT_DIR$/app/Goals/Targets/AddTargetCommandHandler.php" />
         <option value="$PROJECT_DIR$/app/controllers/TargetsController.php" />
-        <option value="$PROJECT_DIR$/app/views/layout/default.blade.php" />
         <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Pagination/views/slider-3.php" />
-        <option value="$PROJECT_DIR$/app/views/goals/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Goals/Goal/AddNewGoalCommandHandler.php" />
-        <option value="$PROJECT_DIR$/app/start/global.php" />
         <option value="$PROJECT_DIR$/gulp-foundation-5-template/gulpfile.js" />
-        <option value="$PROJECT_DIR$/gulp-foundation-5-template/assets/scss/_createGoal.scss" />
-        <option value="$PROJECT_DIR$/gulp-foundation-5-template/assets/scss/main.scss" />
-        <option value="$PROJECT_DIR$/gulp-foundation-5-template/assets/scss/_settings.scss" />
         <option value="$PROJECT_DIR$/app/Goals/Goal/GoalTypeCommand.php" />
-        <option value="$PROJECT_DIR$/app/views/goals/create.blade.php" />
-        <option value="$PROJECT_DIR$/app/Goals/Goal/GoalTypeCommandHandler.php" />
         <option value="$PROJECT_DIR$/app/views/goals/complex.blade.php" />
         <option value="$PROJECT_DIR$/app/views/partials/navbar.blade.php" />
+        <option value="$PROJECT_DIR$/app/Goals/Goal/GoalMeasureCommand.php" />
+        <option value="$PROJECT_DIR$/app/Goals/Goal/GoalTypeCommandHandler.php" />
+        <option value="$PROJECT_DIR$/gulp-foundation-5-template/assets/scss/_settings.scss" />
+        <option value="$PROJECT_DIR$/gulp-foundation-5-template/assets/scss/_createGoal.scss" />
+        <option value="$PROJECT_DIR$/app/views/goals/create.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/goals/partials/measure.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/goals/partials/measure-details.blade.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/app/Goals/Subgoals/Subgoals.php" />
+        <option value="$PROJECT_DIR$/app/database/migrations/2014_08_24_163928_create_goals_table.php" />
+        <option value="$PROJECT_DIR$/app/start/global.php" />
+        <option value="$PROJECT_DIR$/app/Goals/Goal/AddNewGoalCommand.php" />
+        <option value="$PROJECT_DIR$/app/database/migrations/2014_08_24_173513_create_subgoals_table.php" />
+        <option value="$PROJECT_DIR$/app/Goals/Targets/Targets.php" />
+        <option value="$PROJECT_DIR$/app/Goals/Subgoals/Subgoal.php" />
+        <option value="$PROJECT_DIR$/app/Goals/Goal/Goal.php" />
+        <option value="$PROJECT_DIR$/app/views/goals/index.blade.php" />
         <option value="$PROJECT_DIR$/app/routes.php" />
+        <option value="$USER_HOME$/AppData/Roaming/npm/node_modules/express/lib/express.js" />
         <option value="$PROJECT_DIR$/app/views/goals/partials/description.blade.php" />
         <option value="$PROJECT_DIR$/app/views/goals/simple.blade.php" />
-        <option value="$PROJECT_DIR$/app/Goals/Goal/GoalMeasureCommand.php" />
         <option value="$PROJECT_DIR$/app/controllers/GoalsController.php" />
+        <option value="$PROJECT_DIR$/app/Goals/Goal/AddNewGoalCommandHandler.php" />
+        <option value="$PROJECT_DIR$/gulp-foundation-5-template/assets/scss/main.scss" />
+        <option value="$PROJECT_DIR$/app/views/layout/default.blade.php" />
+        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Html/HtmlBuilder.php" />
+        <option value="$PROJECT_DIR$/app/controllers/BaseController.php" />
       </list>
     </option>
   </component>
@@ -129,7 +129,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -145,6 +144,248 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="GoalsAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoalsAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoalsAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoalsAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Illuminate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoalsAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Illuminate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoalsAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Illuminate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Engines" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoalsAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoalsAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoalsAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoalsAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gulp-foundation-5-template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoalsAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gulp-foundation-5-template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoalsAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gulp-foundation-5-template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -330,7 +571,91 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Targets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoalsAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Goals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Subgoals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoalsAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Goals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Goal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoalsAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoalsAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -354,17 +679,18 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="SearchEverywhereHistory" value="&#10;settings&#10;history&#10;histo&#10;goal&#10;app.js&#10;main&#10;short&#10;routes&#10;hello&#10;databa&#10;app" />
+    <property name="SearchEverywhereHistory" value="plugi&#10;html&#10;replace&#10;settings&#10;history&#10;histo&#10;goal&#10;app.js&#10;main&#10;short&#10;routes&#10;hello&#10;databa&#10;app" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
-    <property name="last_opened_file_path" value="F:/Balkans/BH" />
+    <property name="last_opened_file_path" value="$USER_HOME$/ember-trackr" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
@@ -429,12 +755,12 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.53801167" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29385966" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21888727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -442,11 +768,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -466,144 +792,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/fixtures.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/functional.suite.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/_output/report.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/_output/report.tap.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/_output/WelcomeCept.fail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-8.863777" vertical-offset="2863" max-vertical-offset="5352" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="696" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Goals/User/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="4" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="768" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/BaseController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="5" selection-start="312" selection-end="312" vertical-scroll-proportion="0.64050233" vertical-offset="0" max-vertical-offset="637" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="443" selection-end="443" vertical-scroll-proportion="0.60188085" vertical-offset="0" max-vertical-offset="4896" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="31" selection-start="1949" selection-end="1949" vertical-scroll-proportion="0.21003135" vertical-offset="1210" max-vertical-offset="1848" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/emails/test.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="638" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/services.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="661" selection-end="661" vertical-scroll-proportion="0.72602737" vertical-offset="354" max-vertical-offset="888" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/cache.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2280" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/functional/WelcomeCept.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="22" selection-start="121" selection-end="121" vertical-scroll-proportion="0.1696113" vertical-offset="0" max-vertical-offset="566" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="19" selection-start="604" selection-end="604" vertical-scroll-proportion="0.3570248" vertical-offset="336" max-vertical-offset="7272" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Goals/Goal/Events/GoalWasAdded.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="20" selection-start="137" selection-end="137" vertical-scroll-proportion="0.1983471" vertical-offset="0" max-vertical-offset="605" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="313" selection-end="313" vertical-scroll-proportion="0.6424474" vertical-offset="72" max-vertical-offset="696" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Goals/Targets/AddTargetCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="10" selection-start="177" selection-end="177" vertical-scroll-proportion="0.10927835" vertical-offset="259" max-vertical-offset="768" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Goals/Targets/AddTargetCommandHandler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="432" selection-end="432" vertical-scroll-proportion="0.65360826" vertical-offset="67" max-vertical-offset="552" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/TargetsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="35" selection-start="68" selection-end="68" vertical-scroll-proportion="-2.2762887" vertical-offset="1152" max-vertical-offset="2280" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Goals/Targets/Targets.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="335" selection-end="335" vertical-scroll-proportion="0.6041237" vertical-offset="19" max-vertical-offset="504" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Goals/Goal/Goal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="46" selection-start="468" selection-end="507" vertical-scroll-proportion="0.55463916" vertical-offset="163" max-vertical-offset="648" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Pagination/views/slider-3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="10" selection-start="220" selection-end="220" vertical-scroll-proportion="0.3958763" vertical-offset="0" max-vertical-offset="485" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/start.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.4597365" vertical-offset="997" max-vertical-offset="1680" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.8462665" vertical-offset="1261" max-vertical-offset="1944" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/paths.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1512" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/start/global.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="77" selection-start="1795" selection-end="1795" vertical-scroll-proportion="0.6325037" vertical-offset="648" max-vertical-offset="1944" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="27" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0" vertical-offset="384" max-vertical-offset="1272" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gulp-foundation-5-template/.bowerrc">
@@ -611,130 +802,282 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulp-foundation-5-template/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2688" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="384" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="494">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulp-foundation-5-template/assets/scss/_createGoal.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="17" selection-start="30" selection-end="30" vertical-scroll-proportion="0.049792532" vertical-offset="0" max-vertical-offset="482">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulp-foundation-5-template/assets/scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="19" selection-start="61" selection-end="61" vertical-scroll-proportion="0.099585064" vertical-offset="0" max-vertical-offset="482" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulp-foundation-5-template/assets/scss/_settings.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="247" column="27" selection-start="8377" selection-end="8377" vertical-scroll-proportion="0.054176074" vertical-offset="5904" max-vertical-offset="30840" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Goals/Goal/AddNewGoalCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="118" selection-end="118" vertical-scroll-proportion="0.35267857" vertical-offset="82" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Goals/Goal/GoalTypeCommand.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="1" selection-start="191" selection-end="191" vertical-scroll-proportion="0.5464098" vertical-offset="0" max-vertical-offset="571">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Goals/Goal/AddNewGoalCommandHandler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="30" selection-start="555" selection-end="555" vertical-scroll-proportion="0.62171626" vertical-offset="77" max-vertical-offset="648" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Goals/Goal/GoalTypeCommandHandler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="11" selection-start="282" selection-end="282" vertical-scroll-proportion="0.57968473" vertical-offset="5" max-vertical-offset="576" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/partials/navbar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="59" selection-start="402" selection-end="402" vertical-scroll-proportion="0.33625218" vertical-offset="0" max-vertical-offset="571" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/goals/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="2" selection-start="564" selection-end="687" vertical-scroll-proportion="0.67775834" vertical-offset="141" max-vertical-offset="792" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layout/default.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="708" selection-end="708" vertical-scroll-proportion="0.62171626" vertical-offset="293" max-vertical-offset="864" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/body.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="6" selection-start="4734" selection-end="4734" vertical-scroll-proportion="1.8458781" vertical-offset="2450" max-vertical-offset="4488" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/goals/partials/description.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="120" selection-end="120" vertical-scroll-proportion="0.12609456" vertical-offset="0" max-vertical-offset="571" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="37" selection-start="455" selection-end="455" vertical-scroll-proportion="0.7145359" vertical-offset="0" max-vertical-offset="624" />
+        <state line="13" column="1" selection-start="191" selection-end="191" vertical-scroll-proportion="0.5464098" vertical-offset="0" max-vertical-offset="571" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Goals/Goal/GoalMeasureCommand.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="10" selection-start="85" selection-end="85" vertical-scroll-proportion="0.21015762" vertical-offset="0" max-vertical-offset="571">
-          <folding />
-        </state>
+        <state line="5" column="10" selection-start="85" selection-end="85" vertical-scroll-proportion="0.21015762" vertical-offset="0" max-vertical-offset="571" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="148" column="34" selection-start="4002" selection-end="4002" vertical-scroll-proportion="0.70278186" vertical-offset="3072" max-vertical-offset="7272" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Goals/Goal/GoalTypeCommandHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="49" selection-start="360" selection-end="360" vertical-scroll-proportion="0.64522415" vertical-offset="29" max-vertical-offset="624" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_24_173647_create_tasks_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="984" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Goals/Goal/Events/GoalWasAdded.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="20" selection-start="137" selection-end="137" vertical-scroll-proportion="0.17569546" vertical-offset="0" max-vertical-offset="683" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_24_163928_create_goals_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="34" selection-start="331" selection-end="331" vertical-scroll-proportion="0.1566618" vertical-offset="277" max-vertical-offset="960" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Goals/Goal/GoalMeasureCommandHandler.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="274" selection-end="274" vertical-scroll-proportion="0.5884413" vertical-offset="0" max-vertical-offset="571" />
+        <state line="14" column="0" selection-start="274" selection-end="274" vertical-scroll-proportion="0.4919473" vertical-offset="0" max-vertical-offset="683" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/GoalsController.php">
+    <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="20" selection-start="1037" selection-end="1037" vertical-scroll-proportion="2.101576" vertical-offset="0" max-vertical-offset="3240">
-          <folding />
-        </state>
+        <state line="40" column="20" selection-start="931" selection-end="931" vertical-scroll-proportion="1.4055637" vertical-offset="0" max-vertical-offset="1272" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/goals/complex.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="66" selection-end="66" vertical-scroll-proportion="0.16812609" vertical-offset="0" max-vertical-offset="571">
-          <folding />
-        </state>
+        <state line="16" column="0" selection-start="443" selection-end="443" vertical-scroll-proportion="0.56222546" vertical-offset="0" max-vertical-offset="4896" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="31" selection-start="1949" selection-end="1949" vertical-scroll-proportion="0.39970717" vertical-offset="1071" max-vertical-offset="1848" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.568082" vertical-offset="2437" max-vertical-offset="3120" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/queue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.8330893" vertical-offset="569" max-vertical-offset="2184" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.3543192" vertical-offset="925" max-vertical-offset="3504" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/start/global.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="25" selection-start="553" selection-end="553" vertical-scroll-proportion="-1.5300146" vertical-offset="1261" max-vertical-offset="1944" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/start/local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/start/artisan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Goals/Targets/AddTargetCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="10" selection-start="177" selection-end="177" vertical-scroll-proportion="0.33235726" vertical-offset="85" max-vertical-offset="768" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/body.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="134" column="3" selection-start="4145" selection-end="4183" vertical-scroll-proportion="0.60597014" vertical-offset="2810" max-vertical-offset="4488" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/goals/partials/measure.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="16" selection-start="170" selection-end="452" vertical-scroll-proportion="0.19180088" vertical-offset="181" max-vertical-offset="864" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/goals/partials/measure-details.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="35" selection-start="558" selection-end="567" vertical-scroll-proportion="0.5731343" vertical-offset="0" max-vertical-offset="1104" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_24_173513_create_subgoals_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="40" selection-start="479" selection-end="479" vertical-scroll-proportion="0.62247837" vertical-offset="264" max-vertical-offset="1152" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Goals/Goal/AddNewGoalCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="23" selection-start="227" selection-end="239" vertical-scroll-proportion="0.1761194" vertical-offset="242" max-vertical-offset="1200" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/partials/navbar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="59" selection-start="402" selection-end="402" vertical-scroll-proportion="0.39834026" vertical-offset="0" max-vertical-offset="482" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/filters.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2088" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Goals/Targets/Targets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="4" selection-start="146" selection-end="146" vertical-scroll-proportion="0.24896266" vertical-offset="0" max-vertical-offset="482" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Goals/Subgoals/Subgoal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="48" selection-start="351" selection-end="351" vertical-scroll-proportion="0.30290458" vertical-offset="118" max-vertical-offset="600" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Goals/Goal/Goal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="36" selection-start="317" selection-end="317" vertical-scroll-proportion="0.40248963" vertical-offset="94" max-vertical-offset="648" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/goals/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="1010" selection-end="1015" vertical-scroll-proportion="0.7741935" vertical-offset="360" max-vertical-offset="936">
+        <state line="20" column="16" selection-start="565" selection-end="565" vertical-scroll-proportion="0.3347548" vertical-offset="323" max-vertical-offset="1032" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/goals/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="23" selection-start="215" selection-end="215" vertical-scroll-proportion="0.44813278" vertical-offset="0" max-vertical-offset="792" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/npm/node_modules/express/lib/express.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.45629" vertical-offset="1152" max-vertical-offset="2376" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="27" selection-start="265" selection-end="265" vertical-scroll-proportion="0.31625184" vertical-offset="0" max-vertical-offset="1008" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Goals/Goal/AddNewGoalCommandHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="16" selection-start="478" selection-end="478" vertical-scroll-proportion="0.42116183" vertical-offset="181" max-vertical-offset="888">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/goals/partials/description.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="696">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/goals/simple.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="53" selection-start="141" selection-end="141" vertical-scroll-proportion="0.3809524" vertical-offset="0" max-vertical-offset="432">
+        <state line="8" column="59" selection-start="246" selection-end="246" vertical-scroll-proportion="0.2987552" vertical-offset="48" max-vertical-offset="2664">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp-foundation-5-template/assets/scss/_settings.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="26" selection-start="1762" selection-end="1769" vertical-scroll-proportion="2.8381743" vertical-offset="0" max-vertical-offset="30840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="469">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp-foundation-5-template/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="29" selection-start="1572" selection-end="1609" vertical-scroll-proportion="0.59958506" vertical-offset="1103" max-vertical-offset="2688">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp-foundation-5-template/assets/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="139" selection-end="166" vertical-scroll-proportion="0.4726477" vertical-offset="0" max-vertical-offset="457">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp-foundation-5-template/assets/scss/_createGoal.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="1" selection-start="89" selection-end="89" vertical-scroll-proportion="0.31509846" vertical-offset="0" max-vertical-offset="457">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/goals/complex.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="482">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/View/View.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="34" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.3640351" vertical-offset="1178" max-vertical-offset="9384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/PHPUnit/ResultPrinter/HTML.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="138" column="5" selection-start="3149" selection-end="3149" vertical-scroll-proportion="7.263158" vertical-offset="0" max-vertical-offset="4368">
+          <folding>
+            <marker date="1407771602333" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1407771602333" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Html/HtmlBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="56" selection-start="1425" selection-end="1445" vertical-scroll-proportion="2.041494" vertical-offset="720" max-vertical-offset="9216">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/GoalsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="12" selection-start="529" selection-end="529" vertical-scroll-proportion="1.1950208" vertical-offset="0" max-vertical-offset="4128">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="696">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/BaseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="131" selection-end="131" vertical-scroll-proportion="0.34854773" vertical-offset="0" max-vertical-offset="888">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layout/default.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="60" selection-start="227" selection-end="283" vertical-scroll-proportion="0.1493776" vertical-offset="168" max-vertical-offset="912">
           <folding />
         </state>
       </provider>

@@ -26,7 +26,8 @@ class GoalsController extends \BaseController {
 	public function index()
 	{
 
-        $goals = Goal::paginate(5);
+        $goals = Goal::with('subgoal')->paginate(5);
+//return $goals[2]['subgoal'][0]['end_date'];
 //        return ['goals'=>$goals];
         return View::make('goals.index')->with(['goals'=>$goals, 'count'=>Goal::count()]);
 	}
@@ -47,16 +48,36 @@ class GoalsController extends \BaseController {
      * @return mixed
      */
     public function type(){
-    $view = $this->execute(GoalTypeCommand::class);
-    return View::make($view);
+        $type=Input::get('goal_type');
+        $this->setGoal('type',$type);
+//       array_add($this->goal,'type',$type);
+//    $view = $this->execute(GoalTypeCommand::class);
+    return View::make('goals.partials.description');
 }
 
     /**
      * @return mixed
      */
     public function measure(){
-        $view = $this->execute(GoalMeasureCommand::class);
-        return View::make($view);
+//        $view = $this->execute(GoalMeasureCommand::class);
+        $mt =  Input::get('measure_type');
+        $pt = Input::get('progression_type');
+        Session::put('measureType',$mt);
+        Session::put('progress_type',$pt);
+
+        return View::make('goals.partials.measure-details');
+    }
+    public function description(){
+        $name = Input::get('name');
+        $descr = Input::get('descr');
+        $sd = Input::get('start_date');
+        $deadline = Input::get('deadline');
+        Session::put('name',$name);
+        Session::put('description',$descr);
+        Session::put('start_date',$sd);
+        Session::put('deadline',$deadline);
+
+        return View::make('goals.partials.measure');
     }
 	/**
 	 * Store a newly created resource in storage.
@@ -66,12 +87,13 @@ class GoalsController extends \BaseController {
 	 */
 	public function store()
 	{
-        $goal =Input::get('goal-type');
+        $session = Session::all();
+//        $goal =Input::get('goal-type');
 
 //        $goal = Input::get();
 
-        $this->validation->validate($goal);
-        $this->execute(AddNewGoalCommand::class);
+//        $this->validation->validate($goal);
+        $this->execute(AddNewGoalCommand::class,$session);
 //        Goal::create([
 //        'name'=>$goal['name'],
 //        'description'=>$goal['description']
@@ -79,7 +101,21 @@ class GoalsController extends \BaseController {
         Flash::success('Welcome abroad!');
 return 1;
 	}
-
+public function progression(){
+    $setTime =  Input::get('progress_type');
+    $f =  Input::get('frequency');
+    $pv =  Input::get('prog_val');
+    $sv =  Input::get('start_val');
+    $ev =  Input::get('end_val');
+    $auto =  Input::get('auto');
+    Session::put('progress_time',$setTime);
+    Session::put('progressValue',$pv);
+    Session::put('frequency',$f);
+    Session::put('startValue',$sv);
+    Session::put('endValue',$ev);
+    Session::put('auto_deadline',$auto);
+    return View::make('goals.simple');
+}
 	/**
 	 * Display the specified resource.
 	 * GET /goals/{id}
@@ -89,10 +125,11 @@ return 1;
 	 */
 	public function show($id)
 	{
-        $goals = Goal::find($id);
-        $goals['date'] = $goals['created_at']->diffForHumans();
-        $targets = Goal::find($id)->targets;
-        return ['goals'=>$goals,'targets'=>$targets];
+
+       return Goal::find($id)->subgoal()->get();
+//        $goals['date'] = $goals['created_at']->diffForHumans();
+
+
 	}
 
 	/**
