@@ -8,5 +8,11 @@
         <ul class="left">
             <li><a href="http://localhost:8000/goals/create">Add Goal</a></li>
         </ul>
+        <ul class="left">
+            <li><a href="http://localhost:8000/list">List</a></li>
+        </ul>
+        <ul class="left">
+            <li><a href="http://localhost:8000/list/create">Add List</a></li>
+        </ul>
         </section>
 </nav>
