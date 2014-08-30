@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d594b2eb-6578-4f97-b280-1d5904958824" name="Default" comment="" />
+    <list default="true" id="f5f742f0-173f-4bd3-b680-067a08b1804d" name="Default" comment="" />
     <ignored path="goals.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,18 +17,15 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="goals" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="navbar.blade.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/partials/navbar.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-
-            <state line="8" column="3" selection-start="103" selection-end="103" vertical-scroll-proportion="0.512" vertical-offset="0" max-vertical-offset="375">
-
+            <state line="13" column="13" selection-start="644" selection-end="644" vertical-scroll-proportion="0.68122274" vertical-offset="0" max-vertical-offset="600">
               <folding />
             </state>
           </provider>
@@ -44,57 +41,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php" />
-        <option value="$PROJECT_DIR$/codeception.yml" />
-        <option value="$PROJECT_DIR$/tests/fixtures.yml" />
-        <option value="$PROJECT_DIR$/tests/functional/WelcomeCept.php" />
-        <option value="$PROJECT_DIR$/app/config/auth.php" />
-        <option value="$PROJECT_DIR$/app/Goals/User/User.php" />
-        <option value="$PROJECT_DIR$/app/config/app.php" />
-        <option value="$PROJECT_DIR$/app/Goals/Goal/Events/GoalWasAdded.php" />
-        <option value="$PROJECT_DIR$/app/views/emails/test.blade.php" />
-        <option value="$PROJECT_DIR$/app/config/services.php" />
-        <option value="$PROJECT_DIR$/app/config/mail.php" />
-        <option value="$PROJECT_DIR$/app/views/home/body.blade.php" />
-        <option value="$PROJECT_DIR$/public/js/app.js" />
-        <option value="$PROJECT_DIR$/app/Goals/Targets/AddTargetCommand.php" />
-        <option value="$PROJECT_DIR$/app/Goals/Targets/AddTargetCommandHandler.php" />
-        <option value="$PROJECT_DIR$/app/controllers/TargetsController.php" />
-        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Pagination/views/slider-3.php" />
-        <option value="$PROJECT_DIR$/gulp-foundation-5-template/gulpfile.js" />
-        <option value="$PROJECT_DIR$/app/Goals/Goal/GoalTypeCommand.php" />
-        <option value="$PROJECT_DIR$/app/views/goals/complex.blade.php" />
-        <option value="$PROJECT_DIR$/app/Goals/Goal/GoalMeasureCommand.php" />
-        <option value="$PROJECT_DIR$/app/Goals/Goal/GoalTypeCommandHandler.php" />
-        <option value="$PROJECT_DIR$/gulp-foundation-5-template/assets/scss/_settings.scss" />
-        <option value="$PROJECT_DIR$/gulp-foundation-5-template/assets/scss/_createGoal.scss" />
-        <option value="$PROJECT_DIR$/app/views/goals/create.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/goals/partials/measure.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/goals/partials/measure-details.blade.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/app/Goals/Subgoals/Subgoals.php" />
-        <option value="$PROJECT_DIR$/app/database/migrations/2014_08_24_163928_create_goals_table.php" />
-        <option value="$PROJECT_DIR$/app/start/global.php" />
-        <option value="$PROJECT_DIR$/app/Goals/Goal/AddNewGoalCommand.php" />
-        <option value="$PROJECT_DIR$/app/database/migrations/2014_08_24_173513_create_subgoals_table.php" />
-        <option value="$PROJECT_DIR$/app/Goals/Targets/Targets.php" />
-        <option value="$PROJECT_DIR$/app/Goals/Subgoals/Subgoal.php" />
-        <option value="$PROJECT_DIR$/app/Goals/Goal/Goal.php" />
-        <option value="$PROJECT_DIR$/app/views/goals/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/routes.php" />
-        <option value="$USER_HOME$/AppData/Roaming/npm/node_modules/express/lib/express.js" />
-        <option value="$PROJECT_DIR$/app/views/goals/partials/description.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/goals/simple.blade.php" />
-        <option value="$PROJECT_DIR$/app/controllers/GoalsController.php" />
-        <option value="$PROJECT_DIR$/app/Goals/Goal/AddNewGoalCommandHandler.php" />
-        <option value="$PROJECT_DIR$/gulp-foundation-5-template/assets/scss/main.scss" />
-        <option value="$PROJECT_DIR$/app/views/layout/default.blade.php" />
-        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Html/HtmlBuilder.php" />
-        <option value="$PROJECT_DIR$/app/controllers/BaseController.php" />
-        <option value="$PROJECT_DIR$/app/views/partials/navbar.blade.php" />
-        <option value="$PROJECT_DIR$/vendor/laravel/framework/.gitignore" />
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/views/partials/navbar.blade.php" />
       </list>
     </option>
   </component>
@@ -131,6 +79,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -151,101 +100,46 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="SearchEverywhereHistory" value=".idea/work&#10;plugi&#10;html&#10;replace&#10;settings&#10;history&#10;histo&#10;goal&#10;app.js&#10;main&#10;short&#10;routes&#10;hello&#10;databa&#10;app" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
-    <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
-    <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/ember-trackr" />
-    <property name="FullScreen" value="false" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\www\GoalsAPI\gulp-foundation-5-template" />
-      <recent name="C:\xampp\htdocs\www\GoalsAPI" />
-      <recent name="C:\xampp\htdocs\www\goals" />
-      <recent name="C:\xampp\htdocs\www\goals\public\css" />
-      <recent name="C:\xampp\htdocs\www\goals\public\js" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\www\goals\app\Goals\Goal" />
-      <recent name="C:\xampp\htdocs\www\goals\app\Goals\Targets" />
-      <recent name="C:\xampp\htdocs\www\goals\app\Goals\User" />
-      <recent name="C:\xampp\htdocs\www\goals\public\js" />
-    </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d594b2eb-6578-4f97-b280-1d5904958824" name="Default" comment="" />
-      <created>1405867190174</created>
-      <updated>1405867190174</updated>
+      <changelist id="f5f742f0-173f-4bd3-b680-067a08b1804d" name="Default" comment="" />
+      <created>1409380879434</created>
+      <updated>1409380879434</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4137427" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32894737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21888727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -265,273 +159,16 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Goals/Goal/GoalMeasureCommand.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="10" selection-start="85" selection-end="85" vertical-scroll-proportion="0.21015762" vertical-offset="0" max-vertical-offset="571" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="148" column="34" selection-start="4002" selection-end="4002" vertical-scroll-proportion="0.70278186" vertical-offset="3072" max-vertical-offset="7272" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Goals/Goal/GoalTypeCommandHandler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="49" selection-start="360" selection-end="360" vertical-scroll-proportion="0.64522415" vertical-offset="29" max-vertical-offset="624" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_24_173647_create_tasks_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="984" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Goals/Goal/Events/GoalWasAdded.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="20" selection-start="137" selection-end="137" vertical-scroll-proportion="0.17569546" vertical-offset="0" max-vertical-offset="683" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_24_163928_create_goals_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="34" selection-start="331" selection-end="331" vertical-scroll-proportion="0.1566618" vertical-offset="277" max-vertical-offset="960" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Goals/Goal/GoalMeasureCommandHandler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="274" selection-end="274" vertical-scroll-proportion="0.4919473" vertical-offset="0" max-vertical-offset="683" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="20" selection-start="931" selection-end="931" vertical-scroll-proportion="1.4055637" vertical-offset="0" max-vertical-offset="1272" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="443" selection-end="443" vertical-scroll-proportion="0.56222546" vertical-offset="0" max-vertical-offset="4896" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="31" selection-start="1949" selection-end="1949" vertical-scroll-proportion="0.39970717" vertical-offset="1071" max-vertical-offset="1848" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.568082" vertical-offset="2437" max-vertical-offset="3120" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/queue.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.8330893" vertical-offset="569" max-vertical-offset="2184" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.3543192" vertical-offset="925" max-vertical-offset="3504" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/start/global.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="25" selection-start="553" selection-end="553" vertical-scroll-proportion="-1.5300146" vertical-offset="1261" max-vertical-offset="1944" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/start/local.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/start/artisan.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Goals/Targets/AddTargetCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="10" selection-start="177" selection-end="177" vertical-scroll-proportion="0.33235726" vertical-offset="85" max-vertical-offset="768" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/body.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="3" selection-start="4145" selection-end="4183" vertical-scroll-proportion="0.60597014" vertical-offset="2810" max-vertical-offset="4488" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/goals/partials/measure.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="16" selection-start="170" selection-end="452" vertical-scroll-proportion="0.19180088" vertical-offset="181" max-vertical-offset="864" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/goals/partials/measure-details.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="35" selection-start="558" selection-end="567" vertical-scroll-proportion="0.5731343" vertical-offset="0" max-vertical-offset="1104" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_24_173513_create_subgoals_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="40" selection-start="479" selection-end="479" vertical-scroll-proportion="0.62247837" vertical-offset="264" max-vertical-offset="1152" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Goals/Goal/AddNewGoalCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="23" selection-start="227" selection-end="239" vertical-scroll-proportion="0.1761194" vertical-offset="242" max-vertical-offset="1200" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/filters.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2088" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Goals/Targets/Targets.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="4" selection-start="146" selection-end="146" vertical-scroll-proportion="0.24896266" vertical-offset="0" max-vertical-offset="482" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Goals/Subgoals/Subgoal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="48" selection-start="351" selection-end="351" vertical-scroll-proportion="0.30290458" vertical-offset="118" max-vertical-offset="600" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Goals/Goal/Goal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="36" selection-start="317" selection-end="317" vertical-scroll-proportion="0.40248963" vertical-offset="94" max-vertical-offset="648" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/goals/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="16" selection-start="565" selection-end="565" vertical-scroll-proportion="0.3347548" vertical-offset="323" max-vertical-offset="1032" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/goals/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="23" selection-start="215" selection-end="215" vertical-scroll-proportion="0.44813278" vertical-offset="0" max-vertical-offset="792" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/npm/node_modules/express/lib/express.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.45629" vertical-offset="1152" max-vertical-offset="2376" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="27" selection-start="265" selection-end="265" vertical-scroll-proportion="0.31625184" vertical-offset="0" max-vertical-offset="1008" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Goals/Goal/AddNewGoalCommandHandler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="16" selection-start="478" selection-end="478" vertical-scroll-proportion="0.42116183" vertical-offset="181" max-vertical-offset="888" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/goals/partials/description.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="696" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/goals/simple.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="59" selection-start="246" selection-end="246" vertical-scroll-proportion="0.2987552" vertical-offset="48" max-vertical-offset="2664" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulp-foundation-5-template/assets/scss/_settings.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="26" selection-start="1762" selection-end="1769" vertical-scroll-proportion="2.8381743" vertical-offset="0" max-vertical-offset="30840" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="469" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulp-foundation-5-template/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="29" selection-start="1572" selection-end="1609" vertical-scroll-proportion="0.59958506" vertical-offset="1103" max-vertical-offset="2688" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulp-foundation-5-template/assets/scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="139" selection-end="166" vertical-scroll-proportion="0.4726477" vertical-offset="0" max-vertical-offset="457" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulp-foundation-5-template/assets/scss/_createGoal.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="1" selection-start="89" selection-end="89" vertical-scroll-proportion="0.31509846" vertical-offset="0" max-vertical-offset="457" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/goals/complex.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="482" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/View/View.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="34" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.3640351" vertical-offset="1178" max-vertical-offset="9384" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/PHPUnit/ResultPrinter/HTML.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="5" selection-start="3149" selection-end="3149" vertical-scroll-proportion="7.263158" vertical-offset="0" max-vertical-offset="4368" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Html/HtmlBuilder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="56" selection-start="1425" selection-end="1445" vertical-scroll-proportion="2.041494" vertical-offset="720" max-vertical-offset="9216" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/GoalsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="12" selection-start="529" selection-end="529" vertical-scroll-proportion="1.1950208" vertical-offset="0" max-vertical-offset="4128" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="696" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/BaseController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="131" selection-end="131" vertical-scroll-proportion="0.34854773" vertical-offset="0" max-vertical-offset="888" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layout/default.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-
-        <state line="10" column="60" selection-start="227" selection-end="283" vertical-scroll-proportion="0.2925373" vertical-offset="142" max-vertical-offset="912">
+        <state line="8" column="1" selection-start="101" selection-end="101" vertical-scroll-proportion="0.44341803" vertical-offset="0" max-vertical-offset="433">
           <folding />
         </state>
-
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/partials/navbar.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-
-        <state line="11" column="4" selection-start="466" selection-end="660" vertical-scroll-proportion="0.54405284" vertical-offset="17" max-vertical-offset="576">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="75" selection-end="75" vertical-scroll-proportion="0.27972028" vertical-offset="0" max-vertical-offset="429">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitattributes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="38" selection-start="248" selection-end="267" vertical-scroll-proportion="0.31007752" vertical-offset="0" max-vertical-offset="12960">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="3" selection-start="103" selection-end="103" vertical-scroll-proportion="0.512" vertical-offset="0" max-vertical-offset="375">
-
+        <state line="13" column="13" selection-start="644" selection-end="644" vertical-scroll-proportion="0.68122274" vertical-offset="0" max-vertical-offset="600">
           <folding />
         </state>
       </provider>
