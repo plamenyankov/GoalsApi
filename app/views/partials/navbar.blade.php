@@ -16,6 +16,9 @@
         <ul class="left">
             <li><a href="http://localhost:8000/list/create">Excel</a></li>
         </ul>
+        <ul class="left">
+            <li><a href="http://localhost:8000/list/create">Search</a></li>
+        </ul>
 
         </section>
 </nav>
