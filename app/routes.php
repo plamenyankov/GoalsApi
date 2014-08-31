@@ -33,4 +33,8 @@ Route::get('goals/store',[
     'as'=>'goals_create',
     'uses'=> 'GoalsController@store'
 ]);
+Route::get('list',[
+    'as'=>'list_show',
+    'uses'=> 'ListController@show'
+]);
 

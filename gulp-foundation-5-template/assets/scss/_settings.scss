@@ -37,14 +37,30 @@
 // $total-columns: 12;
 
 // Global
+@font-face {
+  font-family: JosefinSlab-Regular;
+  src: url(../fonts/JosefinSlab-Regular.ttf);
+}
+@font-face {
+  font-family: Gaspar;
+  src: url(../fonts/Gaspar_Regular.otf);
+}
+@font-face {
+  font-family: Italiano;
+  src: url(../fonts/Italianno-Regular-OTF.otf);
+}
+@font-face {
+  font-family: odstemplik;
+  src: url(../fonts/odstemplik.otf);
+}
 
 // We use these to control various global styles
 // $body-bg: #fff;
 // $body-font-color: #222;
-// $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$body-font-family:Gaspar, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
-
+$topbar-font-family:Gaspar,JosefinSlab-Regular;
 // We use this to control font-smoothing
 // $font-smoothing: antialiased;
 
@@ -149,7 +165,7 @@
 // We use these to style paragraphs
 // $paragraph-font-family: inherit;
 // $paragraph-font-weight: normal;
-// $paragraph-font-size: 1rem;
+$paragraph-font-size: 1.3rem;
 // $paragraph-line-height: 1.6;
 // $paragraph-margin-bottom: rem-calc(20);
 // $paragraph-aside-font-size: rem-calc(14);
@@ -244,7 +260,7 @@
 
 // We use these to control text style.
 // $alert-font-weight: normal;
-// $alert-font-size: rem-calc(13);
+//$alert-font-size: rem-calc(13);
 // $alert-font-color: #fff;
 // $alert-font-color-alt: scale-color($secondary-color, $lightness: -66%);
 
@@ -324,7 +340,7 @@
 // $include-html-button-classes: $include-html-classes;
 
 // We use these to build padding for buttons.
-// $button-tny: rem-calc(10);
+//$button-tny: rem-calc(10);
 // $button-sml: rem-calc(14);
 // $button-med: rem-calc(16);
 // $button-lrg: rem-calc(18);
@@ -337,7 +353,7 @@
 // $button-font-family: $body-font-family;
 // $button-font-color: #fff;
 // $button-font-color-alt: #333;
-// $button-font-tny: rem-calc(11);
+$button-font-tny: rem-calc(14);
 // $button-font-sml: rem-calc(13);
 // $button-font-med: rem-calc(16);
 // $button-font-lrg: rem-calc(20);
@@ -1090,7 +1106,7 @@
 
 // These control the row padding and font styles
 // $table-row-padding: rem-calc(9 10);
-// $table-row-font-size: rem-calc(14);
+$table-row-font-size: rem-calc(16);
 // $table-row-font-color: #222;
 // $table-line-height: rem-calc(18);
 
@@ -1194,13 +1210,13 @@
 // $topbar-link-color-active: #fff;
 // $topbar-link-color-active-hover: #fff;
 // $topbar-link-weight: normal;
-// $topbar-link-font-size: rem-calc(13);
+ $topbar-link-font-size: rem-calc(18);
  $topbar-link-hover-lightness: -10%; // Darken by 10%
 // $topbar-link-bg: $topbar-bg;
  $topbar-link-bg-hover: scale-color($topbar-bg-color, $lightness: -14%);
 // $topbar-link-bg-active: $primary-color;
  $topbar-link-bg-active-hover: scale-color($topbar-bg-color, $lightness: -14%);
-// $topbar-link-font-family: $body-font-family;
+$topbar-link-font-family: $topbar-font-family;
 // $topbar-link-text-transform: none;
 // $topbar-link-padding: $topbar-height / 3;
 
@@ -1247,7 +1263,6 @@
 //
 // RANGE SLIDER
 //
-
 // $include-html-range-slider-classes: $include-html-classes;
 
 // These variabels define the slider bar styles

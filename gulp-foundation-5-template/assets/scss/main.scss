@@ -1,6 +1,18 @@
 @import "settings";
 @import "foundation";
 @import "createGoal";
+@font-face {
+  font-family: Gaspar_Bold;
+  src: url(../fonts/Gaspar_Regular_Italic.otf);
+}
+@font-face {
+  font-family: Gaspar;
+  src: url(../fonts/Gaspar_Regular.otf);
+}
+@font-face {
+  font-family: JosefinSlab-Bold;
+  src: url(../fonts/JosefinSlab-Bold.ttf);
+}
 .inline{
   display: inline-block;
 }
@@ -9,4 +21,12 @@
 }
 hr{
   margin: 10px 10px;
+}
+.navbar-brand{
+font-family: Gaspar,JosefinSlab-Bold !important;
+font-size: 22px !important;
+}
+.subheader{
+  @extend .subheader;
+  font-family: Gaspar_Bold;
 }
